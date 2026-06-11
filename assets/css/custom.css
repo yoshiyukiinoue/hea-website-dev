@@ -1,0 +1,37 @@
+/* ===== 井上研カスタム: 余白・サイズ調整 ===== */
+
+/* --- ニュース・論文リスト: 見出しとリストの間隔 --- */
+.blox-collection .mt-16,
+.blox-collection .sm\:mt-20 {
+  margin-top: 1.25rem !important;
+}
+.blox-collection .space-y-16 > * + * {
+  margin-top: 1.75rem !important;
+}
+
+/* --- 研究3本柱: ブロック内の上下余白(元: 64-96px)--- */
+.blox-research-areas .py-16 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+/* 見出しとカードの間(元: 48-64px) */
+.blox-research-areas .mb-12 {
+  margin-bottom: 2rem !important;
+}
+
+/* --- メンバー募集カード: 全体に縮小 --- */
+.blox-cta-card .max-w-6xl {
+  max-width: 52rem !important;          /* カード幅 */
+  padding: 2.5rem !important;           /* 内側余白(元: 32-80px) */
+}
+.blox-cta-card h2 {
+  font-size: 1.875rem !important;       /* 見出し(元: 最大72px) */
+  line-height: 1.3 !important;
+}
+.blox-cta-card h2 + div {
+  font-size: 1.05rem !important;        /* 本文(元: 最大24px) */
+  margin-top: 1rem !important;
+}
+.blox-cta-card .mt-10 {
+  margin-top: 1.5rem !important;        /* ボタンの上 */
+}

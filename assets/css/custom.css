@@ -83,6 +83,22 @@ h1, h2, h3, h4 {
 /* ===== Hero ===== */
 .blox-hero-rotator h1 { text-shadow: 0 2px 18px rgb(0 0 0 / 0.45); }
 
+/* ===== 記事ページの見出し階層(研究ページ等)=====
+   h2 = カテゴリ(ネイビーの下罫線)/ h3 = トピック(金の左バー) */
+.prose h2 {
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid rgb(var(--hb-primary-800-rgb));
+  margin-top: 2.2em;
+}
+.dark .prose h2 {
+  border-bottom-color: rgb(var(--hb-primary-400-rgb));
+}
+.prose h3 {
+  padding-left: 0.6em;
+  border-left: 3px solid var(--hea-accent);
+  margin-top: 1.8em;
+}
+
 /* ===== ニュース・論文リスト: 見出しとリストの間隔 ===== */
 .blox-collection .mt-16,
 .blox-collection .sm\:mt-20 {

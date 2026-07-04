@@ -16,6 +16,15 @@ sections:
         padding: ['2rem', '0']
 
   - block: markdown
+    id: members-note
+    content:
+      text: |
+        *Note: Students affiliated with Osaka University are jointly supervised, continuing from the PI's previous institution.*
+    design:
+      spacing:
+        padding: ['0', '0']
+
+  - block: markdown
     id: alumni
     content:
       title: Alumni
@@ -29,8 +38,8 @@ sections:
         | Tomoya Yamada | Graduate Student @ Osaka | 2022–2024 | Private company |
         | Kaoru Yanagisawa | Graduate Student @ Osaka | 2021–2024 | Private company |
         | [Tomonari Michiyama](https://tomonarimitiyama.wixsite.com/mitimomo) | ALMA PD @ Osaka | 2021–2023 | Assistant Professor at Shunan University |
-        | [Naomi Tsuji](https://www.icrr.u-tokyo.ac.jp/staffs/16247/) | RIKEN iTHEMS PD | 2020–2022 | Assistant Professor at ICRR, University of Tokyo |
-        | [Nagisa Hiroshima](https://soryushi.ynu.ac.jp/Nhirosima/index.html) | RIKEN iTHEMS PD | 2019 | Associate Professor at Yokohama National University |
+        | [Naomi Tsuji](https://www.icrr.u-tokyo.ac.jp/staffs/16247/) | iTHEMS PD @ RIKEN | 2020–2022 | Assistant Professor at ICRR, University of Tokyo |
+        | [Nagisa Hiroshima](https://soryushi.ynu.ac.jp/Nhirosima/index.html) | iTHEMS PD @ RIKEN | 2019 | Associate Professor at Yokohama National University |
     design:
       spacing:
         padding: ['2rem', '0']

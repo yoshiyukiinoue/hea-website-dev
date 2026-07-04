@@ -57,8 +57,8 @@ sections:
             - name: High-Energy Astrophysics (MeV)
               icon: bolt
               gradient: from-purple-500 to-fuchsia-600
-              description: Pioneering MeV gamma-ray astronomy with COSI and GRAMS, and multi-messenger studies with IceCube neutrinos.
-              topics: [COSI, GRAMS, neutrinos, blazars]
+              description: Pioneering MeV gamma-ray astronomy and multi-messenger studies with IceCube neutrinos.
+              topics: [GRAMS, neutrinos, blazars]
               cta:
                 text: Read more
                 url: research/#mev
@@ -102,11 +102,11 @@ sections:
       title: Recent Publications
       text: |
         <!-- RECENT_PUBS:START -->
-        - Ly, M. N., **Inoue, Y.**, Sentoku, Y., Sano, T. (2026). Proton Acceleration by Collisionless Shocks in Supermassive Black Hole Coronae: Implications for High-energy Neutrinos. *The Astrophysical Journal* 1004, 27. [ADS](https://ui.adsabs.harvard.edu/abs/2026ApJ..1004...27L) / [arXiv](https://arxiv.org/abs/2601.01999) / [DOI](https://doi.org/10.3847/1538-4357/ae61ab)
         - Xue, R., **Inoue, Y.**, Wang, Z., Liao, N., Xiong, D. (2026). Locating the Production Sites of High-Energy Neutrinos in Blazar Jets. *arXiv e-prints*, arXiv:2606.02024. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260602024X) / [arXiv](https://arxiv.org/abs/2606.02024) / [DOI](https://doi.org/10.48550/arXiv.2606.02024)
-        - Komugi, S., Saito, T., Michiyama, T., **Inoue, Y.**, Nakanishi, K., et al. (2026). An AGN in the Antennae galaxies ?. *arXiv e-prints*, arXiv:2605.21879. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260521879K) / [arXiv](https://arxiv.org/abs/2605.21879) / [DOI](https://doi.org/10.48550/arXiv.2605.21879)
-        - Kusakabe, K., **Inoue, Y.**, Toyouchi, D. (2026). Coherence of Supermassive Black Hole Binary Demographics with the nHz Stochastic Gravitational-wave Background. *The Astrophysical Journal* 999, 117. [ADS](https://ui.adsabs.harvard.edu/abs/2026ApJ...999..117K) / [arXiv](https://arxiv.org/abs/2510.10548) / [DOI](https://doi.org/10.3847/1538-4357/ae3962)
-        - Owen, E. R., Wu, K., **Inoue, Y.**, Fujiwara, T., Han, Q., et al. (2026). The 'Forgotten' Neutrons: Implications for the Propagation of High-Energy Cosmic Rays in Magnetized Astrophysical and Cosmological Structures. *Universe* 12, 94. [ADS](https://ui.adsabs.harvard.edu/abs/2026Univ...12...94O) / [arXiv](https://arxiv.org/abs/2603.25060) / [DOI](https://doi.org/10.3390/universe12040094)
+        - PLUS Science Team, Baba, S., Belli, S., Benotto, P., Delvecchio, I., et al. (2026). GREX-PLUS Science Book v2. *arXiv e-prints*, arXiv:2606.05237. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260605237P) / [arXiv](https://arxiv.org/abs/2606.05237) / [DOI](https://doi.org/10.48550/arXiv.2606.05237)
+        - Sakai, N., **Inoue, Y.**, Owen, E. R. (2026). Revisiting Disk Winds in Active Galactic Nuclei as an Origin of Cosmic Gamma-ray and Neutrino Backgrounds. *arXiv e-prints*, arXiv:2606.17490. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260617490S) / [arXiv](https://arxiv.org/abs/2606.17490) / [DOI](https://doi.org/10.48550/arXiv.2606.17490)
+        - Kawamuro, T., Yamada, S., Noda, H., **Inoue, Y.**, Ogawa, S., et al. (2026). XRISM Time-resolved Fe K$α$ Spectroscopy of NGC 4395: Time-variable Inner-disk Emission. *arXiv e-prints*, arXiv:2606.21180. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260621180K) / [arXiv](https://arxiv.org/abs/2606.21180) / [DOI](https://doi.org/10.48550/arXiv.2606.21180)
+        - Komugi, S., Saito, T., Michiyama, T., **Inoue, Y.**, Nakanishi, K., et al. (2026). An Active Galactic Nucleus in the Antennae Galaxies?. *The Astrophysical Journal* 1004, 126. [ADS](https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..126K) / [arXiv](https://arxiv.org/abs/2605.21879) / [DOI](https://doi.org/10.3847/1538-4357/ae707d)
         <!-- RECENT_PUBS:END -->
         [All publications →](publication/)
     design:

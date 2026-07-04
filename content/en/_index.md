@@ -31,37 +31,49 @@ sections:
       spacing:
         padding: ['0', '0']
 
-  # ===== Research Pillars (cards) =====
+  # ===== Research (two categories) =====
   - block: research-areas
     id: research
     content:
-      title: Research Pillars
-      text: The three pillars of our research program
-      items:
-        - name: Black Hole Astrophysics
-          icon: star
-          gradient: from-gray-700 to-slate-900
-          description: Magnetic field measurements of AGN coronae (ALMA, IXPE, XRISM), accretion physics, and extreme physics near the event horizon.
-          topics: [AGN coronae, X-ray polarimetry, ALMA, XRISM]
+      title: Research
+      text: From fundamental astrophysics to applied radiation science.
+      groups:
+        - title: Fundamental Astrophysics
+          description: Uncovering the physics of the high-energy universe — black holes and MeV gamma rays — through theory and multi-messenger observations.
           cta:
-            text: Read more
-            url: research/#blackhole
-        - name: High-Energy Astrophysics (MeV)
-          icon: bolt
-          gradient: from-purple-500 to-fuchsia-600
-          description: Pioneering MeV gamma-ray astronomy with COSI and GRAMS, and multi-messenger studies with IceCube neutrinos.
-          topics: [COSI, GRAMS, neutrinos, blazars]
+            text: Explore fundamental research
+            url: research/#fundamental
+          items:
+            - name: Black Hole Astrophysics
+              icon: star
+              gradient: from-gray-700 to-slate-900
+              description: Magnetic field measurements of AGN coronae (ALMA, IXPE, XRISM), accretion physics, and extreme physics near the event horizon.
+              topics: [AGN coronae, X-ray polarimetry, ALMA, XRISM]
+              cta:
+                text: Read more
+                url: research/#blackhole
+            - name: High-Energy Astrophysics (MeV)
+              icon: bolt
+              gradient: from-purple-500 to-fuchsia-600
+              description: Pioneering MeV gamma-ray astronomy with COSI and GRAMS, and multi-messenger studies with IceCube neutrinos.
+              topics: [COSI, GRAMS, neutrinos, blazars]
+              cta:
+                text: Read more
+                url: research/#mev
+        - title: Applied High-Energy and Radiation Studies
+          description: Applying our expertise in high-energy astrophysics to real-world radiation challenges of the space age.
           cta:
-            text: Read more
-            url: research/#mev
-        - name: Lunar Radiation Environment
-          icon: moon
-          gradient: from-amber-400 to-yellow-600
-          description: Understanding and forecasting the cosmic-ray and radiation environment on the lunar surface for the era of human lunar activity.
-          topics: [cosmic rays, solar energetic particles, Artemis]
-          cta:
-            text: Read more
-            url: research/#lunar
+            text: Explore applied research
+            url: research/#applied
+          items:
+            - name: Lunar Radiation Environment
+              icon: moon
+              gradient: from-amber-400 to-yellow-600
+              description: Understanding and forecasting the cosmic-ray and radiation environment on the lunar surface for the era of human lunar activity.
+              topics: [cosmic rays, solar energetic particles, Artemis]
+              cta:
+                text: Read more
+                url: research/#lunar
     design:
       spacing:
         padding: ['2.5rem', '0']

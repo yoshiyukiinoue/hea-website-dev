@@ -31,37 +31,49 @@ sections:
       spacing:
         padding: ['0', '0']
 
-  # ===== 研究の3本柱(カード)=====
+  # ===== 研究(2カテゴリ)=====
   - block: research-areas
     id: research
     content:
-      title: 研究の3本柱
-      text: 当研究室が取り組む3つの研究領域
-      items:
-        - name: ブラックホール天文学
-          icon: star
-          gradient: from-gray-700 to-slate-900
-          description: AGNコロナの磁場測定(ALMA・IXPE・XRISM)、降着流の物理、事象の地平線近傍の極限物理。
-          topics: [AGNコロナ, X線偏光, ALMA, XRISM]
+      title: 研究
+      text: 基礎から応用まで——高エネルギー宇宙物理を軸に研究を展開しています。
+      groups:
+        - title: 基礎宇宙物理
+          description: ブラックホールとMeVガンマ線を軸に、高エネルギー宇宙の物理を理論とマルチメッセンジャー観測で解明します。
           cta:
-            text: 詳しく
-            url: research/#blackhole
-        - name: 高エネルギー天文学(MeV)
-          icon: bolt
-          gradient: from-purple-500 to-fuchsia-600
-          description: COSI・GRAMSによるMeVガンマ線天文学の開拓、IceCubeニュートリノとのマルチメッセンジャー研究。
-          topics: [COSI, GRAMS, ニュートリノ, ブレーザー]
+            text: 基礎宇宙物理の研究へ
+            url: research/#fundamental
+          items:
+            - name: ブラックホール天文学
+              icon: star
+              gradient: from-gray-700 to-slate-900
+              description: AGNコロナの磁場測定(ALMA・IXPE・XRISM)、降着流の物理、事象の地平線近傍の極限物理。
+              topics: [AGNコロナ, X線偏光, ALMA, XRISM]
+              cta:
+                text: 詳しく
+                url: research/#blackhole
+            - name: 高エネルギー天文学(MeV)
+              icon: bolt
+              gradient: from-purple-500 to-fuchsia-600
+              description: COSI・GRAMSによるMeVガンマ線天文学の開拓、IceCubeニュートリノとのマルチメッセンジャー研究。
+              topics: [COSI, GRAMS, ニュートリノ, ブレーザー]
+              cta:
+                text: 詳しく
+                url: research/#mev
+        - title: 応用高エネルギー・放射線研究
+          description: 高エネルギー宇宙物理の知見を、宇宙時代の実課題である放射線環境の理解と予測に応用します。
           cta:
-            text: 詳しく
-            url: research/#mev
-        - name: 月面放射線環境
-          icon: moon
-          gradient: from-amber-400 to-yellow-600
-          description: 有人月面活動時代に向けた、月面の宇宙線・放射線環境の理解と予測。
-          topics: [宇宙線, 太陽高エネルギー粒子, アルテミス]
-          cta:
-            text: 詳しく
-            url: research/#lunar
+            text: 応用研究へ
+            url: research/#applied
+          items:
+            - name: 月面放射線環境
+              icon: moon
+              gradient: from-amber-400 to-yellow-600
+              description: 有人月面活動時代に向けた、月面の宇宙線・放射線環境の理解と予測。
+              topics: [宇宙線, 太陽高エネルギー粒子, アルテミス]
+              cta:
+                text: 詳しく
+                url: research/#lunar
     design:
       spacing:
         padding: ['1rem', '0']

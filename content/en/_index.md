@@ -39,6 +39,8 @@ sections:
       text: From fundamental astrophysics to applied radiation science.
       groups:
         - title: Fundamental Astrophysics
+          kicker: 01 — FUNDAMENTAL
+          accent: navy
           description: Uncovering the physics of the high-energy universe — black holes and MeV gamma rays — through theory and multi-messenger observations.
           cta:
             text: Explore fundamental research
@@ -61,6 +63,8 @@ sections:
                 text: Read more
                 url: research/#mev
         - title: Applied High-Energy and Radiation Studies
+          kicker: 02 — APPLIED
+          accent: gold
           description: Applying our expertise in high-energy astrophysics to real-world radiation challenges of the space age.
           cta:
             text: Explore applied research

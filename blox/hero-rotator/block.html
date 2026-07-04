@@ -20,8 +20,8 @@
   {{/* 背景(JSがランダムに1枚選ぶ。JS無効時は最初の1枚)*/}}
   <div id="hero-rotator-bg" class="absolute inset-0 bg-cover bg-center"
     {{ with index $imgs 0 }}style="background-image:url('{{ .src }}')"{{ end }}></div>
-  {{/* 可読性のための暗幕 */}}
-  <div class="absolute inset-0 bg-black/50"></div>
+  {{/* 可読性のための暗幕(下部を濃くするグラデーション) */}}
+  <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-black/25"></div>
 
   <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-12">
     {{ with $title }}
@@ -32,16 +32,16 @@
     {{ end }}
     <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
       {{ with $block.content.primary_action }}
-      <a href="{{ .url | relLangURL }}" class="inline-flex items-center rounded-lg bg-primary-600 hover:bg-primary-700 px-6 py-3 text-white font-semibold shadow-lg transition">{{ .text }}</a>
+      <a href="{{ .url | relLangURL }}" class="hea-btn-accent inline-flex items-center rounded-lg px-6 py-3 text-white font-semibold shadow-lg transition">{{ .text }}</a>
       {{ end }}
       {{ with $block.content.secondary_action }}
-      <a href="{{ .url | relLangURL }}" class="inline-flex items-center px-6 py-3 text-white font-semibold hover:underline">{{ .text }} &rarr;</a>
+      <a href="{{ .url | relLangURL }}" class="inline-flex items-center rounded-lg border border-white/75 px-6 py-3 text-white font-semibold hover:bg-white/10 transition">{{ .text }} &rarr;</a>
       {{ end }}
     </div>
   </div>
 
   {{/* クレジット表記(天文画像の作法)*/}}
-  <div id="hero-rotator-credit" class="absolute bottom-2 right-3 z-10 text-xs text-white/60">
+  <div id="hero-rotator-credit" class="absolute bottom-2 right-3 z-10 text-xs text-white/85 bg-black/45 px-2.5 py-1 rounded-full">
     {{ with index $imgs 0 }}{{ .credit }}{{ end }}</div>
 </section>
 

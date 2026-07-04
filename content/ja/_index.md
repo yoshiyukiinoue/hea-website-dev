@@ -39,6 +39,8 @@ sections:
       text: 基礎から応用まで——高エネルギー宇宙物理を軸に研究を展開しています。
       groups:
         - title: 基礎宇宙物理
+          kicker: 01 — FUNDAMENTAL
+          accent: navy
           description: ブラックホールとMeVガンマ線を軸に、高エネルギー宇宙の物理を理論とマルチメッセンジャー観測で解明します。
           cta:
             text: 基礎宇宙物理の研究へ
@@ -61,6 +63,8 @@ sections:
                 text: 詳しく
                 url: research/#mev
         - title: 応用高エネルギー・放射線研究
+          kicker: 02 — APPLIED
+          accent: gold
           description: 高エネルギー宇宙物理の知見を、宇宙時代の実課題である放射線環境の理解と予測に応用します。
           cta:
             text: 応用研究へ

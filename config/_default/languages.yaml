@@ -1,10 +1,11 @@
 # ============================================================
 # 言語設定
-#   ja → https://yoshiyukiinoue.github.io/
+#   ja → https://yoshiyukiinoue.github.io/ja/
 #   en → https://yoshiyukiinoue.github.io/en/
+#   ルート (/) は /ja/ へリダイレクト
 # ============================================================
 ja:
-  locale: ja-jp
+  locale: ja-JP
   label: 日本語
   weight: 1
   contentDir: content/ja
@@ -13,7 +14,7 @@ ja:
     description: 芝浦工業大学 高エネルギー宇宙物理研究室(井上研究室)。ブラックホール天文学・MeVガンマ線天文学・月面放射線環境の研究。
 
 en:
-  locale: en-us
+  locale: en-US
   label: English
   weight: 2
   contentDir: content/en

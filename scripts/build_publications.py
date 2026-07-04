@@ -64,6 +64,7 @@ def find_arxiv(identifiers):
 
 def entry_md(d):
     title = (d.get("title") or ["(no title)"])[0]
+    title = re.sub(r"<[^>]+>", "", title)  # strip raw HTML (e.g. ADS erratum links)
     authors = short_authors(d.get("author") or [])
     year = d.get("year", "")
     pub = d.get("pub", "")

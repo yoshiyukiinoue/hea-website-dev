@@ -45,7 +45,7 @@ sections:
           topics: [AGNコロナ, X線偏光, ALMA, XRISM]
           cta:
             text: 詳しく
-            url: research/blackhole/
+            url: research/#blackhole
         - name: 高エネルギー天文学(MeV)
           icon: bolt
           gradient: from-purple-500 to-fuchsia-600
@@ -53,7 +53,7 @@ sections:
           topics: [COSI, GRAMS, ニュートリノ, ブレーザー]
           cta:
             text: 詳しく
-            url: research/mev/
+            url: research/#mev
         - name: 月面放射線環境
           icon: moon
           gradient: from-amber-400 to-yellow-600
@@ -61,7 +61,7 @@ sections:
           topics: [宇宙線, 太陽高エネルギー粒子, アルテミス]
           cta:
             text: 詳しく
-            url: research/lunar/
+            url: research/#lunar
     design:
       spacing:
         padding: ['1rem', '0']

@@ -45,7 +45,7 @@ sections:
           topics: [AGN coronae, X-ray polarimetry, ALMA, XRISM]
           cta:
             text: Read more
-            url: research/blackhole/
+            url: research/#blackhole
         - name: High-Energy Astrophysics (MeV)
           icon: bolt
           gradient: from-purple-500 to-fuchsia-600
@@ -53,7 +53,7 @@ sections:
           topics: [COSI, GRAMS, neutrinos, blazars]
           cta:
             text: Read more
-            url: research/mev/
+            url: research/#mev
         - name: Lunar Radiation Environment
           icon: moon
           gradient: from-amber-400 to-yellow-600
@@ -61,7 +61,7 @@ sections:
           topics: [cosmic rays, solar energetic particles, Artemis]
           cta:
             text: Read more
-            url: research/lunar/
+            url: research/#lunar
     design:
       spacing:
         padding: ['2.5rem', '0']
@@ -80,15 +80,20 @@ sections:
         padding: ['2.5rem', '0']
 
   # ===== Recent Publications =====
-  - block: collection
+  - block: markdown
     id: latest-pubs
     content:
       title: Recent Publications
-      count: 5
-      filters:
-        folders: [publication]
+      text: |
+        <!-- RECENT_PUBS:START -->
+        - Ly, M. N., **Inoue, Y.**, Sentoku, Y., Sano, T. (2026). Proton Acceleration by Collisionless Shocks in Supermassive Black Hole Coronae: Implications for High-energy Neutrinos. *The Astrophysical Journal* 1004, 27. [ADS](https://ui.adsabs.harvard.edu/abs/2026ApJ..1004...27L) / [arXiv](https://arxiv.org/abs/2601.01999) / [DOI](https://doi.org/10.3847/1538-4357/ae61ab)
+        - Xue, R., **Inoue, Y.**, Wang, Z., Liao, N., Xiong, D. (2026). Locating the Production Sites of High-Energy Neutrinos in Blazar Jets. *arXiv e-prints*, arXiv:2606.02024. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260602024X) / [arXiv](https://arxiv.org/abs/2606.02024) / [DOI](https://doi.org/10.48550/arXiv.2606.02024)
+        - Komugi, S., Saito, T., Michiyama, T., **Inoue, Y.**, Nakanishi, K., et al. (2026). An AGN in the Antennae galaxies ?. *arXiv e-prints*, arXiv:2605.21879. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260521879K) / [arXiv](https://arxiv.org/abs/2605.21879) / [DOI](https://doi.org/10.48550/arXiv.2605.21879)
+        - Kusakabe, K., **Inoue, Y.**, Toyouchi, D. (2026). Coherence of Supermassive Black Hole Binary Demographics with the nHz Stochastic Gravitational-wave Background. *The Astrophysical Journal* 999, 117. [ADS](https://ui.adsabs.harvard.edu/abs/2026ApJ...999..117K) / [arXiv](https://arxiv.org/abs/2510.10548) / [DOI](https://doi.org/10.3847/1538-4357/ae3962)
+        - Owen, E. R., Wu, K., **Inoue, Y.**, Fujiwara, T., Han, Q., et al. (2026). The 'Forgotten' Neutrons: Implications for the Propagation of High-Energy Cosmic Rays in Magnetized Astrophysical and Cosmological Structures. *Universe* 12, 94. [ADS](https://ui.adsabs.harvard.edu/abs/2026Univ...12...94O) / [arXiv](https://arxiv.org/abs/2603.25060) / [DOI](https://doi.org/10.3390/universe12040094)
+        <!-- RECENT_PUBS:END -->
+        [All publications →](publication/)
     design:
-      view: citation
       spacing:
         padding: ['2.5rem', '0']
 

@@ -2,6 +2,9 @@ main:
   - name: ホーム
     url: /
     weight: 10
+  - name: ニュース
+    url: /news/
+    weight: 25
   - name: 研究
     url: /research/
     weight: 20
@@ -11,12 +14,6 @@ main:
   - name: 論文
     url: /publication/
     weight: 40
-  - name: ニュース
-    url: /news/
-    weight: 50
-  - name: 講義
-    url: /teaching/
-    weight: 60
   - name: 参加希望の方へ
     url: /join/
     weight: 70

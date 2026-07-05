@@ -7,7 +7,7 @@ sections:
   - block: hero-rotator
     id: hero
     content:
-      title: Inoue High-Energy Astrophysics Lab
+      title: High-Energy Astrophysics Lab
       text: |
         From the extreme environments around black holes to the radiation environment on the lunar surface —
         we tackle the mysteries of the high-energy universe through theory and multi-messenger observations
@@ -83,15 +83,12 @@ sections:
         padding: ['2.5rem', '0']
 
   # ===== News =====
-  - block: collection
+  - block: news-list
     id: news
     content:
       title: News
       count: 5
-      filters:
-        folders: [news]
     design:
-      view: date-title-summary
       spacing:
         padding: ['2.5rem', '0']
 

@@ -22,4 +22,4 @@ Our lab belongs to the [College of Systems Engineering and Science](https://www.
 
 ## Contact
 
-Yoshiyuki Inoue — yinoue@shibaura-it.ac.jp
+Yoshiyuki Inoue — yinoue_at_shibaura-it.ac.jp (replace _at_ with @)

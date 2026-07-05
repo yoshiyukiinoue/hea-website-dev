@@ -83,15 +83,12 @@ sections:
         padding: ['1rem', '0']
 
   # ===== ニュース =====
-  - block: collection
+  - block: news-list
     id: news
     content:
       title: ニュース
       count: 5
-      filters:
-        folders: [news]
     design:
-      view: date-title-summary
       spacing:
         padding: ['1rem', '0']
 

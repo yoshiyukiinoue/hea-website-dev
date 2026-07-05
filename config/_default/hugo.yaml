@@ -9,8 +9,8 @@ build:
   buildStats:
     enable: true
 
-# 多言語: 日本語を /ja/ に、英語を /en/ に配置。ルート (/) は /ja/ へリダイレクト
-defaultContentLanguage: ja
+# 多言語: 英語を /en/ に、日本語を /ja/ に配置。ルート (/) は /en/ へリダイレクト
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 hasCJKLanguage: true
 

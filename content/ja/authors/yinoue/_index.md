@@ -6,8 +6,8 @@ weight: 10
 first_name: よしゆき
 last_name: いのうえ
 superuser: true
-# メンバーカードの名前クリックで飛ぶ外部個人ページ
-external_url: https://yoshiyukiinoue.github.io/
+# メンバーカードの名前クリックで飛ぶプロフィールページ (サイト内)
+external_url: profile/
 # 参考リンク (サイト上では未使用。将来の PI Profile/CV 用データ)
 profiles:
   - icon: academicons/orcid

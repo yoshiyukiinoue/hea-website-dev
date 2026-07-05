@@ -90,8 +90,12 @@ def page_md(docs, lang):
     note = ("リストは SciX (ADS) 公開ライブラリから自動生成されています。"
             if lang == "ja" else
             "This list is auto-generated from our public SciX (ADS) library.")
+    data_note = ("論文で公開している数値データは [データ公開](../downloads/) ページにまとめています。"
+                 if lang == "ja" else
+                 "Numerical data from our papers are available on the [Downloads](../downloads/) page.")
     lib = f"https://scixplorer.org/public-libraries/{LIB_ALL}"
-    lines = ["---", f"title: {title}", "---", "", f"{note} [SciX]({lib})", ""]
+    lines = ["---", f"title: {title}", "---", "",
+             f"{note} [SciX]({lib})", "", data_note, ""]
     cur = None
     for d in docs:
         y = d.get("year", "????")

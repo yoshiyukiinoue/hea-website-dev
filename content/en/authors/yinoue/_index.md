@@ -4,8 +4,8 @@ role: Professor
 user_groups: [Members]
 weight: 10
 superuser: true
-# External personal page linked from the member card
-external_url: https://yoshiyukiinoue.github.io/
+# Profile page linked from the member card (internal)
+external_url: profile/
 # Reference links (not rendered on the site yet; for the future PI Profile/CV page)
 profiles:
   - icon: academicons/orcid

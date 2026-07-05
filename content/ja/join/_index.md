@@ -22,4 +22,4 @@ title: 参加希望の方へ
 
 ## 連絡先
 
-井上 芳幸 — yinoue@shibaura-it.ac.jp
+井上 芳幸 — yinoue_at_shibaura-it.ac.jp (_at_ を @ に変換してください)

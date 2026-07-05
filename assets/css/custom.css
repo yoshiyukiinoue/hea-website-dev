@@ -76,6 +76,17 @@ h1, h2, h3, h4 {
 }
 .hea-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgb(20 33 61 / 0.08); }
 
+/* リンクピル (ニュース・論文リスト共通) */
+.hea-pill {
+  display: inline-block; text-decoration: none;
+  font-size: 0.75rem; line-height: 1.5;
+  color: rgb(var(--hb-primary-600-rgb));
+  border: 1px solid var(--hea-border); border-radius: 9999px;
+  padding: 0 0.55rem;
+}
+.dark .hea-pill { color: rgb(var(--hb-primary-400-rgb)); }
+.hea-pill:hover { border-color: var(--hea-accent); color: var(--hea-accent); }
+
 /* アクセント(金)ボタン */
 .hea-btn-accent { background-color: var(--hea-accent); }
 .hea-btn-accent:hover { background-color: var(--hea-accent-strong); }

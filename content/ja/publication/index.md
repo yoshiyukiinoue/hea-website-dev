@@ -5,6 +5,8 @@ title: 論文
 リストは SciX (ADS) 公開ライブラリから自動生成されています。 [SciX](https://scixplorer.org/public-libraries/r0HdPWXHQKOV8kUwuZDq5Q)
 
 
+論文で公開している数値データは [データ公開](../downloads/) ページにまとめています。
+
 ## 2026
 
 - Xue, R., **Inoue, Y.**, Wang, Z., Liao, N., Xiong, D. (2026). Locating the Production Sites of High-Energy Neutrinos in Blazar Jets. *arXiv e-prints*, arXiv:2606.02024. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260602024X) / [arXiv](https://arxiv.org/abs/2606.02024) / [DOI](https://doi.org/10.48550/arXiv.2606.02024)

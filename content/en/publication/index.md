@@ -5,6 +5,8 @@ title: Publications
 This list is auto-generated from our public SciX (ADS) library. [SciX](https://scixplorer.org/public-libraries/r0HdPWXHQKOV8kUwuZDq5Q)
 
 
+Numerical data from our papers are available on the [Downloads](../downloads/) page.
+
 ## 2026
 
 - Xue, R., **Inoue, Y.**, Wang, Z., Liao, N., Xiong, D. (2026). Locating the Production Sites of High-Energy Neutrinos in Blazar Jets. *arXiv e-prints*, arXiv:2606.02024. [ADS](https://ui.adsabs.harvard.edu/abs/2026arXiv260602024X) / [arXiv](https://arxiv.org/abs/2606.02024) / [DOI](https://doi.org/10.48550/arXiv.2606.02024)

@@ -5,6 +5,8 @@ summary: From fundamental astrophysics to applied radiation science
 
 High-energy astrophysics probes physics under conditions no laboratory on Earth can reproduce: the vicinity of black holes, relativistic jets, and explosive transients. Our group combines theory and simulations with multi-messenger observations across X-rays, gamma rays, radio, neutrinos, and gravitational waves. Our research is organized into two categories: **Fundamental Astrophysics**, which targets the extreme physics of the high-energy universe, and **Applied High-Energy and Radiation Studies**, which brings that expertise to practical challenges of the space age.
 
+Numerical data from our papers are available on the [Downloads](../downloads/) page.
+
 ## Fundamental Astrophysics {#fundamental}
 
 Anchored in two windows, black holes and MeV gamma rays, our work extends across a wide range of astrophysical phenomena, from the cosmic gamma-ray background and galaxy formation to star-forming galaxies and microquasars. Students in our group can work across the full arc, from building theoretical models to proposing observations and analyzing data.
